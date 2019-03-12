@@ -13,6 +13,9 @@ Demo application to create tasks
 - Run the scripts inside backend\src\main\resources\modelagem.sql
 - Run app: mvnw
 
+## To-do
+- Configure liquibase to run integration tests
+
 # Frontend
 
 ## Technology Stack:
