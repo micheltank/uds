@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  flex: 1;
+}
+
+mat-sidenav {
+  width: 320px;
+}
+
+.content {
+  padding: 12px;
+}
+
+.name-container{
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+}
+
+router-outlet{
+  margin: 0px
+}

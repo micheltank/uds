@@ -1,0 +1,20 @@
+<form id="form" #f="ngForm" name="form" class="form" (ngSubmit)="submit()">
+    <p>
+        <mat-form-field fxFlex>
+            <input matInput id="description" name="description" #description="ngModel" [(ngModel)]="task.description" required/>
+            <mat-error *ngIf="description.hasError('required')">
+                Description is required
+            </mat-error>
+        </mat-form-field>
+    </p>
+        <div fxLayout="row" fxLayoutGap="24px">
+            <mat-checkbox [(ngModel)]="task.status" name="status" >
+                <label>Done</label> 
+            </mat-checkbox>
+        </div>
+    
+    <p>
+        <button mat-button mat-raised-button color="primary" type="submit" [disabled]="f.invalid || f.pending"> Save</button>
+    </p>
+
+</form>
