@@ -8,7 +8,7 @@ Demo application to create tasks
 - MySql
 - Lombok
 
-## How run:
+## How to run:
 - Create and run database: docker-compose -f backend\mysql.yaml up
 - Run the scripts inside backend\src\main\resources\modelagem.sql
 - Run app: mvnw
