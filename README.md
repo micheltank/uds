@@ -19,6 +19,6 @@ Demo application to create tasks
 - Angular 6
 - Material
 
-## How run:
+## How to run:
 - Run: npm install
 - Run app: npm start
